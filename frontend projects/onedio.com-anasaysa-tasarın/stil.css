@@ -1,0 +1,39 @@
+.collapse ul li {
+	font-weight: 600;
+}
+.navbar-brand {
+	margin-top: -5px;
+}
+.carousel-caption a {
+	text-decoration:none ;
+}
+.card-img-overlay-text {
+	margin-top: 235px ;
+}
+.card {
+	margin-left: -20px;
+	max-width: 365px;
+}
+.card-sagda{
+	margin-top:80px;
+	font-size: 14px;
+}
+.card-saga{
+	min-height: 155px;
+
+
+}
+
+@media( max-width: 576px) {
+
+.card {
+	margin-top: 4px;
+	margin-left: 0px;
+	
+
+}
+.kücük{
+	width: 330px;
+	height: 190px
+}
+}

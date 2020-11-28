@@ -1,0 +1,52 @@
+.navbar-dark{
+	background-color:#3C5B9A !important;
+	height: 80px;
+}
+.form-control1{
+	padding: 1.2px;
+	border-radius:0px;
+height: 17px  !important;
+width: 160px !important;
+}
+.etiket{
+	font-size: 13px;
+	color:white;
+	position:absolute;
+	margin-top:-40px !important;
+}
+.etiket1{
+	font-size: 13px;
+	color:white;
+	position:absolute;
+	margin-top:-40px;
+	margin-left: 177px;
+}
+.etiket2{
+	font-size: 13px;
+	color:white;
+	position:absolute;
+	margin-top:40px;
+	margin-left: 177px;
+}
+.etiket2 a {
+	color:#9CB4D8;
+
+}
+.btn {
+	background-color:#365899;
+	color:white;
+	
+}
+.btn:hover {
+	color:white;
+	border-color: black !important;
+}
+.gradian{
+	background: linear-gradient(white,#D4D9E8) !important;
+}
+.uzak{
+	margin-right: 100px !important;
+}
+	
+
+

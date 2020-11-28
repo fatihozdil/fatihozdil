@@ -1,0 +1,367 @@
+
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="onedio.com tasarımı">
+  <meta name="keywords" content="Bootstrap4, onedio, eğitim">
+  <meta name="author" content="FATİH ÖZDİL">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="stil.css">
+  <title>bootstrap 4 ile onedio.com tasarımı</title>
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom border-secondary">
+    <div class="container">
+     <a href="#" class="navbar-brand " ><img width="100" src="logo.PNG"></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#onediomenu"><span class="navbar-toggler-icon"></span></button>
+     <div class="collapse navbar-collapse" id="onediomenu">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a href="#" class="nav-link">TEST</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">VİDEO</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">YEMEK</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">CAFE</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">GÜNDEM</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DİĞER</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item col-auto"><img src="galeriler.png">GALERİLER</a>
+            <a href="#" class="dropdown-item col-auto"><img src="galeriler.png">GALERİLER</a>
+            <a href="#" class="dropdown-item col-auto"><img src="galeriler.png">GALERİLER</a>
+          </div>
+        </li>
+        <img class="ml-4" width="250" src="yanemoji.png">
+      </ul>
+
+
+      <div class="btn-group ml-auto">
+        <div class="dropdown ">
+          <a class="" data-toggle="dropdown"><i class="fas fa-search"></i></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="" class="dropdown-item">
+              <form class="form-inline">
+                <input type="search" class="form-control" placeholder="ara.." name="">
+              </form>
+            </a>
+          </div>
+          <!-- drowdown sonu -->
+        </div>
+        <a class="ml-4" data-toggle="modal" data-target="#user"><i class="fas fa-user"></i></a>
+        <div class="modal fade bd-example-modal" id="user" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-light" ><div class="row mx-auto">
+                <h6 >onedio.com<h6 class="text-muted">'a giriş yapın</h6></h6></div>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-center"> Twitter ya da Facebook ile giriş yap </p>
+                <div class="text-center ">
+                  <button style="background-color: #658ABC; height: 50px;" class="text-white btn-md  col-md-6"><i class="fab fa-facebook-square"></i> Facebook ile Giriş Yap</button>
+                  <br>
+                  <button style="background-color: #5BA8E4; height: 50px;" class="text-white btn-md my-3 col-md-6"><i class="fab fa-twitter-square"></i> Twitter ile Giriş Yap</button> 
+                  <p >Onedio Hesabı ile Giriş</p>                
+                </div>
+
+                <form> <div class="row">
+                  <div class="form-group mx-auto">                  
+                    <input type="mail" class="form-control " placeholder="Kullanıcı Adı veya email" name="">  </div></div>
+                    <div class="row">
+                      <div class="form-group mx-auto">
+                       <input type="password"  class="form-control" placeholder="şifre" name="">
+                     </div>                              
+                   </div>                 
+                   <div class="row">
+                     <div class="form-check" style="margin-left: 160px;">
+                      <small>
+                       <input type="checkbox" class="form-check-input" id="checkitem" name="">
+                       <label class="form-check-label" for="checkitem">beni hatıla</label><br>
+                       <label class="form-check-label " for="checkitem"><a href="#">şifremi unuttum!</a></label>
+                     </small>
+                   </div>
+                   <div style="margin-left: 70px;">
+                     <button type="submit" class="btn btn-success">Giriş</button>
+                   </div>
+                 </div>
+               </form>
+               <!-- BODY -->
+             </div> 
+             <div class="modal-footer justify-content-center ">
+              <h6>Onedio Hesabı Oluşturmak için <a href="">Tıklayın!!</a></h6>
+              <!-- footer sonu -->
+            </div>          
+            <!-- content sonu -->
+          </div>
+          <!-- dialog sonu -->
+        </div> 
+        <!-- modal sonu -->
+      </div>
+      <!-- btn group snu -->
+    </div>
+    <!-- collapse sonu -->
+  </div>
+  <!-- container sonu -->
+</div>
+</nav>
+<div class="container">
+  <div class="row my-4">
+    <div class="col-md-5">
+      <div id="kontrol" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#kontrol" data-slide-to="0"></li>
+          <li data-target="#kontrol" data-slide-to="1"></li>
+          <li data-target="#kontrol" data-slide-to="2"></li>
+          <li data-target="#kontrol" data-slide-to="3"></li>
+          <li data-target="#kontrol" data-slide-to="4"></li>
+          <li data-target="#kontrol" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="cat.PNG">
+            <div class="carousel-caption"><a href="" class="text-white"><h6>Yarın Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></a></div>
+          </div>
+          <div class="carousel-item">
+            <img src="metin2.PNG" >
+            <div class="carousel-caption"><h6> 'Kim Bu Yakışıklı? Aa Benmişim': AKP Milletvekili Twitter'dan Kendine Yanıt Verdi</h6></div>
+          </div>
+          <div class="carousel-item">
+            <img src="haber2.PNG">
+            <div class="carousel-caption"><h6>Yarın Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></div>
+          </div>
+          <div class="carousel-item">
+            <img src="haber4.PNG">
+            <div class="carousel-caption"><h6>Yarın Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></div>
+          </div>
+          <div class="carousel-item">
+            <img src="arab5.PNG" >
+            <div class="carousel-caption"><h6>Yarın Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></div>
+          </div>
+          <div class="carousel-item">
+            <img src="khabib6.PNG" >
+            <div class="carousel-caption"><h6>Yarın Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></div>
+          </div>
+          <!-- inner sonu -->
+          <a href="#kontrol" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+          <a href="#kontrol" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+        </div>
+        <!-- carousel sonu -->
+      </div>
+
+      <!-- col-md-5 sonu -->
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 bg-dark text-white">
+        <img class="card-img " src="orta.PNG">
+        <div class="card-img-overlay card-img-overlay-text " >      
+          <h6 class="card-title">Muhtemelen Adını Daha Önce Hiç Duymadığınız Aşırı Kaliteli 20 Yabancı Dizi</h6>
+        </div>   
+      </div>
+    </div>
+
+    <div class="col-md-3">
+     <div class="card border-0">
+      <img class="card-img card-saga" src="sagust.PNG">
+      <div class="card-img-overlay card-sagda ">     
+        <p class=" text-white card-text">İroninin ile Güldüren Zeka Dolu Paylaşımlara İmza Atan 19 Kişi</p>
+      </div>    
+    </div>
+    <div class="card border-0">
+      <img class="card-img card-saga mt-3" src="sagalt.PNG">
+      <div class="card-img-overlay card-sagda ">      
+        <p class=" text-white card-text">Can Dostlarımız Kedilerle İlgili Hem İçimizi Isıtacak Hem de Yüzümüzü Güldürecek 15 Paylaşım</p>
+      </div>   
+    </div>
+  </div>
+  <!-- row sonu -->
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h5> Haberler</h5>
+    <hr>   <div class="row mb-2 ">
+      <a  href=""><img class="kücük" src="img/haber1.jpg"></a>
+      <div class="card border-0 ml-2">
+        <a href=""><h6 class="card-title text-dark">Kuzey Kore Lideri Kim Jong-un Ölürse Yerine Kim Geçecek?</h6></a>
+        <p class="card-text" style="font-size: 13px">Uzun süredir halka açık herhangi bir etkinlikte ve televizyonlarda görünmeyen Kuzey ...</p>
+        <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>
+      </div>
+    </div>
+    <div class="row mb-2 ">
+      <a href=""><img class="kücük" src="img/haber2.jpg"></a>
+      <div class="card border-0 ml-2">
+        <a href=""><h6 class="card-title text-dark">Gökçek'in 'Tebaasını Bu Kadar Düşünen İkinci Bir Lider Yok' Sözleri Tepkilerin Odağında</h6></a>
+        <p class="card-text" style="font-size: 13px">Ankara'nın eski belediye başkanı Melih Gökçek, korona...</p>
+        <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>
+      </div>
+    </div>
+    <div class="row mb-2 ">
+      <a href=""><img class="kücük" src="img/haber3.jpg"></a>
+      <div class="card border-0 ml-2">
+        <a href=""><h6 class="card-title text-dark">Bugün Toplanacak Kabinenin Gündemi: 65 Yaş Üstü, 1 Mayıs ve Okullar</h6></a>
+        <p class="card-text" style="font-size: 13px">21 Mart'tan bu yana sokağa çıkamayan 65 yaş üstü vatandaşlar için yasağın...</p>
+        <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>
+      </div>
+    </div>
+    <div class="row mb-2 ">
+      <a href=""><img class="kücük" src="img/haber4.jpg"></a>
+      <div class="card border-0 ml-2">
+        <a href=""><h6 class="card-title text-dark">Sağlık Bakanı Koca: 'Son 20 Gün İçinde Yeni Vak'a Sayısının En Düşük Olduğu Gün</h6></a>
+        <p class="card-text" style="font-size: 13px">Sağlık Bakanı Fahrettin Koca, 26 Nisan tarihine ait koronavi...</p>
+        <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h5> Galeriler</h5>
+    <hr>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/galeri1.jpg">      
+      <h6 class="card-tittle">Yeni Anne mi Oldunuz? Aklınızdaki Sorulara Bir Bir Cevap Veriyoruz!</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/galeri2.jpg">      
+      <h6 >Karantinada Bunlardan 27/46 Tanesini Yaptıysan Sen Kesinlikle Bitik Durumdasın!</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/galeri3.jpg">      
+      <h6 >İnsanın Dilinde Damağında Buruk Bir Keyif Bırakan 27 Naif Türkçe Şarkı47 </h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>  
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/galeri4.jpg">      
+      <h6 >Netflix’in Beğenilen Dizisi ’Unorthodox’taki Robert Rolüyle Sempatimizi Kazanan Karizmatik Oyuncu: Aaron Altaras</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+  </div>
+  <div class="col-md-2">
+    <h5> Videolar</h5>
+    <hr>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/vid1.jpg">      
+      <h6 >Yeni Anne mi Oldunuz? Aklınızdaki Sorulara Bir Bir Cevap Veriyoruz!</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/vid2.jpg">      
+      <h6 >Karantinada Bunlardan 27/46 Tanesini Yaptıysan Sen Kesinlikle Bitik Durumdasın!</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/vid3.jpg">      
+      <h6 >İnsanın Dilinde Damağında Buruk Bir Keyif Bırakan 27 Naif Türkçe Şarkı47 </h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>  
+
+    </div>
+    <div class="card mb-2 border-0">
+      <img class="card-img mb-1" src="img/vid4.jpg">      
+      <h6 >Netflix’in Beğenilen Dizisi ’Unorthodox’taki Robert Rolüyle Sempatimizi Kazanan Karizmatik Oyuncu: Aaron Altaras</h6>
+      <span class="text-muted card-text" style="font-size: 10px;">27 nisan 17.47</span>   
+    </div>
+  </div>
+  <!-- row sonu -->
+</div>
+
+<!-- container sonu -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.js" ></script>
+<script src="js/popper.min.js" ></script>
+<script src="js/bootstrap.min.js" ></script>
+
+</body>
+</html>

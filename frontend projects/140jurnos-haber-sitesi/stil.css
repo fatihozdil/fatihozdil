@@ -1,0 +1,62 @@
+.navbar{
+	background-color: #190F6E;
+}
+.button-group a {
+	color: #BEC4E8;
+	text-decoration:none;
+	margin-right: 6px;
+}
+.button-group button {
+	color: #BEC4E8;
+}
+.button-group button:hover {
+	color: #BEC4E8 !important;
+}
+.logo
+{
+	height: 150px;
+	margin-top: 20px;
+}
+.navbar-nav a {
+	color: #BEC4E8;
+}
+.foto1{
+	margin-top: 200px;
+}
+.foto2{
+	margin-top: 200px;
+}
+.card-img-overlay{
+	background-color: rgba(0,0,0,0.4);
+}
+
+.row {
+  
+  margin-top: 1px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.border:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+ text-decoration-style: 
+
+}
+.lead{
+	width: 35%;
+	margin-left: 465px;
+}
+@media (max-width: 576px)
+{
+	.foto1{
+		margin-top: 180px;
+	}
+	.foto2{
+		margin-top: 170px;
+
+
+	}
